@@ -7,10 +7,23 @@ Static literary archive: a diegetic 2008 Foundation website initiated by Catheri
 From the repository root:
 
 ```bash
-python3 -m http.server 8000 --directory sterling-web
+python3 -m http.server 8000
 ```
 
-Open <http://localhost:8000/>. No build step or JavaScript is required. The output deliberately uses a fixed 960px desktop canvas, float-based columns, simple links, tables, and conservative CSS rather than responsive/mobile-first techniques. Modern Cloudflare Pages can serve these unchanged static files; deployment has not occurred and no backend, database, accounts, comments, or dynamic service is part of the site.
+Open <http://localhost:8000/>. No build step or JavaScript is required. The output deliberately uses a fixed 960px desktop canvas, float-based columns, simple links, tables, and conservative CSS rather than responsive/mobile-first techniques.
+
+## Cloudflare Pages
+
+Use these project settings:
+
+| Setting | Value |
+|---|---|
+| Framework preset | None |
+| Build command | Blank (or `exit 0`) |
+| Output directory | `.` |
+| Custom domain | `arthurvaleriussterling.org` |
+
+Cloudflare Pages serves the repository root as unchanged static files. No backend, database, accounts, comments, analytics, cookies, or dynamic service is part of the site.
 
 ## Route map
 
