@@ -23,7 +23,9 @@ Use these project settings:
 | Output directory | `.` |
 | Custom domain | `arthurvaleriussterling.org` |
 
-Cloudflare Pages serves the repository root as unchanged static files. No backend, database, accounts, comments, analytics, cookies, or dynamic service is part of the site.
+Cloudflare Pages serves the repository root as unchanged static files. No backend, database, accounts, comments, cookies, or dynamic service is part of the site.
+
+Google Analytics is configured with Measurement ID `G-28362M11MJ`. Privacy and legal configuration remain the owner’s responsibility for applicable jurisdictions.
 
 ## Route map
 
