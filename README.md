@@ -27,6 +27,8 @@ Cloudflare Pages serves the repository root as unchanged static files. No backen
 
 Google Analytics is configured with Measurement ID `G-28362M11MJ`. Privacy and legal configuration remain the owner’s responsibility for applicable jurisdictions.
 
+The reusable mark for favicon and avatar contexts is `assets/sterling-foundation-mark.svg`; the existing CSS crest remains unchanged in the page headers.
+
 ## Route map
 
 - `index.html` — Home: purpose, couple, household legacy, and cared-for incomplete archive.
